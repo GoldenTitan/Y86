@@ -1,0 +1,103 @@
+.log-entry {
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    font-family: monospace;
+}
+
+.log-entry pre {
+    margin: 4px 0;
+    white-space: pre-wrap;
+}
+
+#registers div, #memory div {
+    font-family: monospace;
+    padding: 2px 0;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.register-entry.highlight {
+    background-color: #e6f3ff;
+}
+
+.register-entry.highlight .register-value {
+    color: #0056b3;
+    font-weight: bold;
+}
+.register-entry, .memory-entry {
+    font-family: monospace;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.register-entry.highlight {
+    background-color: #e6f3ff;
+}
+
+.register-entry.highlight .register-value {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.register-name, .memory-address {
+    font-weight: bold;
+    color: #666;
+}
+
+.register-value, .memory-value {
+    color: #007bff;
+}
+
+.memory-entry:hover {
+    background-color: #f8f9fa;
+}
+
+.log-entry {
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    margin-bottom: 4px;
+}
+
+.log-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.log-registers, .log-memory {
+    font-family: monospace;
+    font-size: 0.9em;
+    margin: 4px 0;
+}
+
+.log-register, .log-memory-entry {
+    display: inline-block;
+    margin-right: 8px;
+    color: #666;
+}
+
+.text-muted {
+    color: #6c757d;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+#messageArea {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.alert {
+    margin-bottom: 10px;
+}
